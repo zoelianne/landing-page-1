@@ -36,4 +36,21 @@ body {
 
 .header {
     text-transform: uppercase;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.nav ul {
+gap: 28px;
+display: flex;
+font-size: 11.5px;
+letter-spacing: 0.10em;
+list-style: none;
 }
